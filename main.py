@@ -14,5 +14,5 @@ while True:     # Check for valid integer input for the height
     except ValueError:
         print("Please enter a valid integer for height.")
 Area = Width * Height
-print (f"Width is {Width}m and height is {Height}m.")
+print (f"Width is {Width} m and height is {Height} m.")
 print (f"The wall will be {Area} square meters.")
